@@ -30,7 +30,7 @@ pip install TTS soundfile numpy
 ## Usage
 
 To generate cloned TTS audio, run the script with the desired text input. You can customize the output file paths if needed.
-
+To make the program faster, modify gpu to True.(Disclaimer: you need to have a gpu with cuda 11.0+ support and cuda installed on the device).
 ```bash
 python voice_cloning.py
 ```
