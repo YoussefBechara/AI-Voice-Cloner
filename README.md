@@ -77,12 +77,4 @@ Below is an example of generating speech with a cloned voice:
     python voice_cloning.py
     ```
 
-3. The generated audio will be saved as `output_audio.wav`, and the prolonged version will be saved as `output_audio_prolonged.mp3`.
 
-## License
-
-This project is licensed under the MIT License. You are free to use, modify, and distribute this software in accordance with the license terms.
-
----
-
-This README provides a comprehensive overview of the Voice Cloning Script, ensuring you can quickly understand and use the script for your TTS needs. If you encounter any issues or need further customization, feel free to modify the script to suit your requirements.
