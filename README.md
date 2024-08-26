@@ -38,7 +38,7 @@ python voice_cloning.py
 ### Example Command
 
 ```bash
-python voice_cloning.py "Your text here"
+python voice_cloning.py "Your text here" "audi reference path here" 
 ```
 
 This command will generate a TTS audio file with the cloned voice based on the reference audio specified in the script.
