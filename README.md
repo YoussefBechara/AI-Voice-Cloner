@@ -47,7 +47,7 @@ This command will generate a TTS audio file with the cloned voice based on the r
 
 - **Voice Cloning**: Clone a voice using a reference `.wav` file.
 - **Text-to-Speech Generation**: Convert text input to synthetic speech.
-- **Audio Output**: Save the generated audio in `.wav` and `.mp3` formats.
+- **Audio Output**: Save the generated audio in `.wav` format.
 - **Audio Prolongation**: Add silence at the end of the audio to extend its duration.
 
 ## Dependencies
@@ -61,7 +61,6 @@ The following Python libraries are required to run the script:
 ## Configuration
 
 - **Text Input**: Modify the `text` variable in the script to change the input text for TTS generation.
-- **Output Files**: The script outputs audio to the paths defined by `ex_output_file`, `ex_output_mp3_file`, and `ex_prolonged_path`. You can customize these paths as needed.
 - **Reference Audio**: Update the path to the reference `.wav` file for voice cloning in the `generate_cloned_tts` function.
 
 ## Examples
